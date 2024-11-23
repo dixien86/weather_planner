@@ -49,3 +49,5 @@
 
 ### Manually add destinations
 Once the application is up and running locally, please use the following endpoint ***GET /api/destinations/*** to manually add destinations.
+
+To get the temperature for the location, use the following endpoint ***GET /api/destinations/{pk}/weather/*** use the primary key from the destination table.
